@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.1) # we use target_sources()
 # portmidi #
 ############
 
-add_library(portmidi SHARED
+add_library(portmidi STATIC
   pm_common/portmidi.c
   pm_common/pmutil.c
   porttime/porttime.c
